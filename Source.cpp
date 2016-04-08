@@ -37,19 +37,16 @@ int main()
 	int arr[] = { 1,4,11,9,12,77,11 };
 	int elm=1;	
 	elm = sizeof(arr) / sizeof(int);
-	sort(arr, elm);
-	print(arr, elm);
+	print(arr, elm);						//Funct. "print" calls "sort" then print the sorted array
 	
 	//declaring the second Array
 	float arr1[] = { 1.2,1.5,1.9,2.7,10,20.1,0.11,5.7 };
 	elm = sizeof(arr1)/sizeof(float);
-	sort(arr1, elm);
 	print(arr1, elm);
 
 	//declaring the last Array
 	string arr2[] = { "straight","joiner","zombie","jomo","Jomo","Nkosie" };
 	elm = sizeof(arr2) / sizeof(string);
-	sort(arr2, elm);
 	print(arr2, elm);
 	return 0;
 }
